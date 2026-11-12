@@ -1,0 +1,46 @@
+{
+  "title": "Ahmed Zabana: The First to Climb the Guillotine",
+  "description": "The true story of Ahmed Zabana, Algerian freedom fighter, executed on June 19, 1956 at Barberousse prison. Verify dates against official sources.",
+  "tags": ["Algeria", "Algerian Revolution", "Ahmed Zabana", "history", "documentary"],
+  "voice": "en-GB-RyanNeural",
+  "rate": "-8%",
+  "seed": 1954,
+  "min_clip_seconds": 8,
+  "style": "Cinematic historical documentary still, 1950s black and white 35mm film photography, heavy grain, high contrast, soft vignette, dust and scratches, desaturated, vertical 9:16, no text, no modern elements, no recognizable faces",
+  "clips": [
+    {
+      "image_prompt": "Dawn over rural western Algeria, mist on the fields, mud-brick village, distant shepherd silhouette",
+      "narration": "In 1926, near Oran, a poor boy was born under French rule. His name was Ahmed Zabana."
+    },
+    {
+      "image_prompt": "Young Algerian man in 1950s clothes seen from behind in a narrow old street, looking up at the sky",
+      "narration": "He grew up watching injustice every day, and chose to join the secret struggle for Algeria's freedom."
+    },
+    {
+      "image_prompt": "Prison cell, thick iron bars, one beam of light from a high window",
+      "narration": "When the revolution began in November 1954, he fought in the Oran region."
+    },
+    {
+      "image_prompt": "Tall man's shadow standing upright on a stone cell wall, face hidden in darkness",
+      "narration": "Captured, he was sentenced to death by a colonial court. In his cell, he wrote a final letter to his family."
+    },
+    {
+      "image_prompt": "Long dark prison corridor, a heavy iron door slightly open, light spilling in, no people visible",
+      "narration": "At dawn on June 19th, 1956, the iron door opened inside Barberousse prison, in Algiers.",
+      "caption": "June 19, 1956"
+    },
+    {
+      "image_prompt": "Empty stone courtyard before dawn, still air, faint light on the walls, nobody visible",
+      "narration": "Together with his comrade Abdelkader Ferradj, he walked toward the guillotine."
+    },
+    {
+      "image_prompt": "Dawn sky above old stone walls, flock of birds rising into soft light",
+      "narration": "He was the first Algerian fighter executed by guillotine in the revolution. But the struggle did not die with him."
+    },
+    {
+      "image_prompt": "Algerian flag waving slowly against a bright sky, seen from below, strong wind, proud mood",
+      "narration": "Ahmed Zabana was thirty years old. He died so that Algeria could live.",
+      "caption": "Algeria remembers"
+    }
+  ]
+}
