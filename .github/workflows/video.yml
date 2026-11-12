@@ -1,0 +1,20 @@
+name: Build Zabana video
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install edge-tts requests
+      - run: python generate.py
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "v${{ github.run_number }}" out/zabana.mp4 --title "Zabana video" --notes "Auto-generated"
